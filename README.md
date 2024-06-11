@@ -1,4 +1,4 @@
-#precommittest
+# precommittest
 
 This is a reference guide on how to create a repository, install pre-commit on your local macbook
 and to run pre-commit for some and/or all files in your repository
