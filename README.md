@@ -4,14 +4,14 @@ This is a reference guide on how to create a repository, install pre-commit on y
 and to run pre-commit for some and/or all files in your repository
 
 
-###Table of Contents
+### Table of Contents
 **[Creating a Repository] (#creating-a-repository)**<br>
 **[Syncing your Repository to your Macbook] (#syncing-your-repository-to-your-macbook)
 **[Installing pre-commit] (#installing-pre-commit)**<br>
 **[Running pre-commit] (#running-pre-commit) **<br>
 
 
-##Creating a Repository
+## Creating a Repository
 
 1. First log into GitHub using your credentials or if you do not have an account, register.
 2. Once you are logged in you could click on the plus icon near your profile picture to add a repository.
@@ -27,7 +27,7 @@ whether you want it private or public, as well as the options to add a README fi
 
 4. After you select these options you can select Create repository
 
-##Syncing your Repository to your Macbook
+## Syncing your Repository to your Macbook
 
 Congratulations, you just created your first repository on GitHub but you would like have it synced to your local Macbook. Luckily
 after creating you could do that easily. First create a new director of the same name as your remote repository.
@@ -52,9 +52,9 @@ setting it as the upstream branch.
 Now you can check your GitHub repository where your changes should be synced in
 
 
-##Installing pre-commit
+## Installing pre-commit
 
-###1. If you have the homebrew package type in the following command to install pre-commit on your terminal
+### 1. If you have the homebrew package type in the following command to install pre-commit on your terminal
 
 ```
 brew install pre-commit
@@ -63,7 +63,7 @@ brew install pre-commit
 
 *Once installed use pre-commit --version to check if you have the correct version installed
 
-###2.Add a pre-commit configuration through a yaml file
+### 2.Add a pre-commit configuration through a yaml file
 
 The pre-commit package does not come with built in configurations, so in order to use the scripts we
 must add these configurations ourselves.
@@ -89,12 +89,12 @@ to check proper yaml syntax, find the end of the file and check for whitespaces.
 proper python syntax and formatting.
 
 
-###3. Install the git hook scripts
+### 3. Install the git hook scripts
 	*run the ```pre-commit install``` command to set up the git hook scripts on your repository
 	*This will also allow ```pre-commit``` to run everytime you commit changes
 
 
-##4. Running pre-commit
+## 4. Running pre-commit
 
 	*To run pre-commit to check all files type in
 
@@ -125,6 +125,6 @@ proper python syntax and formatting.
 	black....................................................................Passed
 	```
 
-	* What this will do is check for syntax errors in any python or yaml file in the directory and if there are any it returns a
+What this will do is check for syntax errors in any python or yaml file in the directory and if there are any it returns a
 failed message denoting the line that the syntax error exists in if. If not it simply gives a passed notfication and modifies the
 formatting of the files to ensure that they are ready to be committed and easy for other developers to read.
