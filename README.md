@@ -52,7 +52,7 @@ stage and commit your changes for the first time, create a main branch, add the 
 setting it as the upstream branch.
 
 
-Now you can check your GitHub repository where your changes should be synced in
+Now you can check your GitHub repository where your changes should be synced in.
 
 
 ## Installing pre-commit
@@ -63,7 +63,7 @@ Now you can check your GitHub repository where your changes should be synced in
 brew install pre-commit
 ```
 
-Once installed use pre-commit --version to check if you have the correct version installed
+Once installed use ```pre-commit --version``` to check if you have the correct version installed.
 
 ### 2.Add a pre-commit configuration through a yaml file
 
@@ -131,7 +131,7 @@ black....................................................................Passed
 ```
 
 What this will do is check for syntax errors in any python or yaml file in the directory and if there are any it returns a
-failed message denoting the line that the syntax error exists in if.
+failed message denoting the line that the syntax error exists in.
 
 If not it simply gives a passed notfication and modifies the formatting of the files to ensure that they are ready to be
 committed and easy for other developers to read.
