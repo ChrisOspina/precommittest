@@ -23,10 +23,10 @@ and to run pre-commit for some and/or all files in your repository
 * Click on the option that says New Repository to create an empty one
 
 ### 3. Once you are in the Create a new repository window it will ask you for the following
-	*  A repository name,
-	*  An optional description,
-	*  Whether you would like it to be private or public,
-	*  The options to add a README file, .gitignore and a license if applicable
+*  A repository name,
+*  An optional description,
+*  Whether you would like it to be private or public,
+*  The options to add a README file, .gitignore and a license if applicable
 
 ### 4. After you select these options you can select Create repository
 
@@ -52,7 +52,7 @@ stage and commit your changes for the first time, create a main branch, add the 
 setting it as the upstream branch.
 
 
-* Now you can check your GitHub repository where your changes should be synced in
+Now you can check your GitHub repository where your changes should be synced in
 
 
 ## Installing pre-commit
@@ -105,28 +105,28 @@ To run pre-commit to check all files type in
 
 The output may look like the following
 
-	```
-	$ pre-commit run --all-files
-	[INFO] Initializing environment for https://github.com/pre-commit/pre-commit-hooks.
-	[INFO] Initializing environment for https://github.com/psf/black.
-	[INFO] Installing environment for https://github.com/pre-commit/pre-commit-hooks.
-	[INFO] Once installed this environment will be reused.
-	[INFO] This may take a few minutes...
-	[INFO] Installing environment for https://github.com/psf/black.
-	[INFO] Once installed this environment will be reused.
-	[INFO] This may take a few minutes...
-	Check Yaml...............................................................Passed
-	Fix End of Files.........................................................Passed
-	Trim Trailing Whitespace.................................................Failed
-	- hook id: trailing-whitespace
-	- exit code: 1
+```
+$ pre-commit run --all-files
+[INFO] Initializing environment for https://github.com/pre-commit/pre-commit-hooks.
+[INFO] Initializing environment for https://github.com/psf/black.
+[INFO] Installing environment for https://github.com/pre-commit/pre-commit-hooks.
+[INFO] Once installed this environment will be reused.
+[INFO] This may take a few minutes...
+[INFO] Installing environment for https://github.com/psf/black.
+[INFO] Once installed this environment will be reused.
+[INFO] This may take a few minutes...
+Check Yaml...............................................................Passed
+Fix End of Files.........................................................Passed
+Trim Trailing Whitespace.................................................Failed
+- hook id: trailing-whitespace
+- exit code: 1
 
-	Files were modified by this hook. Additional output:
+Files were modified by this hook. Additional output:
 
-	Fixing sample.py
+Fixing sample.py
 
-	black....................................................................Passed
-	```
+black....................................................................Passed
+```
 
 What this will do is check for syntax errors in any python or yaml file in the directory and if there are any it returns a
 failed message denoting the line that the syntax error exists in if. If not it simply gives a passed notfication and modifies the
