@@ -5,16 +5,16 @@ and to run pre-commit for some and/or all files in your repository
 
 
 ### Table of Contents
-**[Creating a Repository] (#creating-a-repository)**<br>
-**[Syncing your Repository to your Macbook] (#syncing-your-repository-to-your-macbook)
-**[Installing pre-commit] (#installing-pre-commit)**<br>
-**[Running pre-commit] (#running-pre-commit) **<br>
+**[Creating a Repository](#creating-a-repository)**<br>
+**[Syncing your Repository to your Macbook](#syncing-your-repository-to-your-macbook)
+**[Installing pre-commit](#installing-pre-commit)**<br>
+**[Running pre-commit](#running-pre-commit) **<br>
 
 
 ## Creating a Repository
 
-1. First log into GitHub using your credentials or if you do not have an account, register.
-2. Once you are logged in you could click on the plus icon near your profile picture to add a repository.
+### 1. First log into GitHub using your credentials or if you do not have an account, register.
+### 2. Once you are logged in you could click on the plus icon near your profile picture to add a repository.
 	* There are four options:
  		1. New repository
 		2. Import repository
@@ -22,10 +22,10 @@ and to run pre-commit for some and/or all files in your repository
 		4. New Gist
 	* Click on the option that says New Repository to create an empty one
 
-3. Once you are in the Create a new repository window it will ask you for a repository name, an optional description,
+### 3. Once you are in the Create a new repository window it will ask you for a repository name, an optional description,
 whether you want it private or public, as well as the options to add a README file, .gitignore and a license if applicable
 
-4. After you select these options you can select Create repository
+### 4. After you select these options you can select Create repository
 
 ## Syncing your Repository to your Macbook
 
