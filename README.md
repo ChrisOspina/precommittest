@@ -15,12 +15,12 @@ and to run pre-commit for some and/or all files in your repository
 
 ### 1. First log into GitHub using your credentials or if you do not have an account, register.
 ### 2. Once you are logged in you could click on the plus icon near your profile picture to add a repository.
-	* There are four options:
- 		1. New repository
-		2. Import repository
-		3. New codespace
-		4. New Gist
-	* Click on the option that says New Repository to create an empty one
+There are four options:
+ 	1. New repository
+	2. Import repository
+	3. New codespace
+	4. New Gist
+Click on the option that says New Repository to create an empty one
 
 ### 3. Once you are in the Create a new repository window it will ask you for a repository name, an optional description,
 whether you want it private or public, as well as the options to add a README file, .gitignore and a license if applicable
@@ -61,7 +61,7 @@ brew install pre-commit
 
 ```
 
-*Once installed use pre-commit --version to check if you have the correct version installed
+Once installed use pre-commit --version to check if you have the correct version installed
 
 ### 2.Add a pre-commit configuration through a yaml file
 
@@ -90,17 +90,17 @@ proper python syntax and formatting.
 
 
 ### 3. Install the git hook scripts
-	*run the ```pre-commit install``` command to set up the git hook scripts on your repository
-	*This will also allow ```pre-commit``` to run everytime you commit changes
+run the ```pre-commit install``` command to set up the git hook scripts on your repository
+This will also allow ```pre-commit``` to run everytime you commit changes
 
 
-## 4. Running pre-commit
+##  Running pre-commit
 
-	*To run pre-commit to check all files type in
+To run pre-commit to check all files type in
 
 ```$ pre-commit-run --all-files```
 
-	*The output may look like the following
+The output may look like the following
 
 	```
 	$ pre-commit run --all-files
