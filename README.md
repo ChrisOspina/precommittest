@@ -6,9 +6,9 @@ and to run pre-commit for some and/or all files in your repository
 
 ### Table of Contents
 **[Creating a Repository](#creating-a-repository)**<br>
-**[Syncing your Repository to your Macbook](#syncing-your-repository-to-your-macbook)
+**[Syncing your Repository to your Macbook](#syncing-your-repository-to-your-macbook)**<br>
 **[Installing pre-commit](#installing-pre-commit)**<br>
-**[Running pre-commit](#running-pre-commit) **<br>
+**[Running pre-commit](#running-pre-commit)**<br>
 
 
 ## Creating a Repository
