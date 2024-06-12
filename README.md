@@ -15,12 +15,12 @@ and to run pre-commit for some and/or all files in your repository
 
 ### 1. First log into GitHub using your credentials or if you do not have an account, register.
 ### 2. Once you are logged in you could click on the plus icon near your profile picture to add a repository.
-There are four options:
+* There are four options:
  	1. New repository
 	2. Import repository
 	3. New codespace
 	4. New Gist
-Click on the option that says New Repository to create an empty one
+* Click on the option that says New Repository to create an empty one
 
 ### 3. Once you are in the Create a new repository window it will ask you for a repository name, an optional description,
 whether you want it private or public, as well as the options to add a README file, .gitignore and a license if applicable
@@ -49,7 +49,7 @@ stage and commit your changes for the first time, create a main branch, add the 
 setting it as the upstream branch.
 
 
-Now you can check your GitHub repository where your changes should be synced in
+* Now you can check your GitHub repository where your changes should be synced in
 
 
 ## Installing pre-commit
@@ -61,14 +61,14 @@ brew install pre-commit
 
 ```
 
-Once installed use pre-commit --version to check if you have the correct version installed
+* Once installed use pre-commit --version to check if you have the correct version installed
 
 ### 2.Add a pre-commit configuration through a yaml file
 
 The pre-commit package does not come with built in configurations, so in order to use the scripts we
 must add these configurations ourselves.
-	*To start create a file titled .pre-commit-config.yaml
-	*The contents in the file should look like the following:
+	* To start create a file titled .pre-commit-config.yaml
+	* The contents in the file should look like the following:
 
 		```
 		repos:
