@@ -22,8 +22,11 @@ and to run pre-commit for some and/or all files in your repository
 	4. New Gist
 * Click on the option that says New Repository to create an empty one
 
-### 3. Once you are in the Create a new repository window it will ask you for a repository name, an optional description,
-whether you want it private or public, as well as the options to add a README file, .gitignore and a license if applicable
+### 3. Once you are in the Create a new repository window it will ask you for the following
+	*  A repository name,
+	*  An optional description,
+	*  Whether you would like it to be private or public,
+	*  The options to add a README file, .gitignore and a license if applicable
 
 ### 4. After you select these options you can select Create repository
 
@@ -58,7 +61,6 @@ setting it as the upstream branch.
 
 ```
 brew install pre-commit
-
 ```
 
 * Once installed use pre-commit --version to check if you have the correct version installed
@@ -67,30 +69,31 @@ brew install pre-commit
 
 The pre-commit package does not come with built in configurations, so in order to use the scripts we
 must add these configurations ourselves.
-	* To start create a file titled .pre-commit-config.yaml
-	* The contents in the file should look like the following:
+* To start create a file titled .pre-commit-config.yaml
+* The contents in the file should look like the following:
 
-		```
-		repos:
-		-   repo: https://github.com/pre-commit/pre-commit-hooks
-		    rev: v2.3.0
-   		    hooks:
- 		     -   id: check-yaml
-    		     -   id: end-of-file-fixer
-   		     -   id: trailing-whitespace
-		-   repo: https://github.com/psf/black
-    		    rev: 22.10.0
- 		    hooks:
-   	        -   id: black
+```
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v2.3.0
+    hooks:
+      -   id: check-yaml
+      -   id: end-of-file-fixer
+      -   id: trailing-whitespace
+-   repo: https://github.com/psf/black
+    	  rev: 22.10.0
+     hooks:
+-   id: black
+```
 
-		```
 What the configuration details entail is that it is fetching the scripts from the repositories being called
 to check proper yaml syntax, find the end of the file and check for whitespaces. The second repository checks
 proper python syntax and formatting.
 
 
 ### 3. Install the git hook scripts
-run the ```pre-commit install``` command to set up the git hook scripts on your repository
+Run the ```pre-commit install``` command to set up the git hook scripts on your repository.
+
 This will also allow ```pre-commit``` to run everytime you commit changes
 
 
